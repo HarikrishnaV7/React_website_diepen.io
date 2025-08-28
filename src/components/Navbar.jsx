@@ -6,6 +6,13 @@ import { IoCall } from "react-icons/io5";
 const Navbar = () => {
   const [isFloating, setIsFloating] = useState(false);
 
+    const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
@@ -24,9 +31,9 @@ const Navbar = () => {
     <nav className={`navbar ${isFloating ? "floating" : ""}`}>
       <div className='logo'>Dipen io</div>
       <div className='navcenter'>
-        <button><a href="#Services">Services</a></button>
-        <button><a href="#Whoweare">Who we are</a></button>
-        <button><a href="#Testimonials">Testimonials</a></button>
+        <button onClick={() => scrollToSection("Services")}>Services</button>
+        <button  onClick={() => scrollToSection("Whoweare")}>Who we are</button>
+        <button  onClick={() => scrollToSection("Testimonials")}>Testimonials</button>
       </div>
       <div className='navright'>
         <button className='AiBtn'>Integrate AI <FaBolt size={20}/> </button>
