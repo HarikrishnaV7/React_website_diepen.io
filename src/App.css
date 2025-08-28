@@ -16,6 +16,9 @@ body {
   margin-bottom: 20px;
   margin-top: 13px;
 }
+section{
+  scroll-margin-top: 80px;
+}
 .logo{
   font-size: 20px;
   font-weight: bold;
@@ -34,12 +37,16 @@ body {
   padding: 8px 10px;
   border-radius: 6px;
   cursor: pointer;
-  background-color:rgb(247, 247, 247);
+  background-color:rgb(247, 247, 248);
   font-size: 14px;
   font-weight: 510px;
 }
 .navcenter button:hover {
   background-color: rgb(241, 237, 237);
+  color: black;
+}
+.navcenter a{
+  text-decoration: none;
   color: black;
 }
 .navright button{
@@ -67,6 +74,17 @@ body {
   gap: 10px;
   background-color: black;
   color: white;
+}
+.floating{
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+  background-color:white;
+  border-radius: 15px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
 }
 
 /* container */

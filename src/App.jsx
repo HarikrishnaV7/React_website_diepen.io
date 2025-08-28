@@ -16,18 +16,18 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
-    <Navbar/>
-    <Container/>
-    <Wwo/>
-    <Container2/>
-    <Benefits/>
-    <Container3/>
-    <Container4/>
-    <Nst/>
-    <Testimonials/>
-    <Wom/>
-    <Container5/>
-    <Footer/>
+      <Navbar/>
+      <section id='Services'><Container/></section>
+      <Wwo/>
+      <section id='Whoweare'><Container2/></section>
+      <Benefits/>
+      <Container3/>
+      <Container4/>
+      <Nst/>
+      <section id='Testimonials'><Testimonials/></section>
+      <Wom/>
+      <Container5/>
+      <Footer/>
     </>
   )
 }
