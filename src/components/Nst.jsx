@@ -19,35 +19,35 @@ const Nst = () => {
       </div>
       <p>We start with understanding your business goals, target audience, and technical requirements.</p>
     </div>
-    <div className='rcard' style={{backgroundColor:'rgba(223, 245, 210, 1)'}}>
+    <div className='rcard' style={{backgroundColor:'rgba(223, 245, 210, 1)',transform: "rotate(5deg)",}}>
       <div className='icon-heading'>
       <GoSearch className='ricon' size={23} />
       <h3>Planning</h3>
       </div>
       <p>Strategic planning phase where we define the project scope, timeline, and technical architecture.</p>
     </div>
-    <div className='rcard' style={{backgroundColor:'rgba(221, 255, 255, 1)'}}>
+    <div className='rcard' style={{backgroundColor:'rgba(157, 248, 248, 1)',transform: "rotate(-5deg)"}}>
       <div className='icon-heading'>
       <LuDock className='ricon' size={23} />
       <h3>Build & Test</h3>
       </div>
       <p>Development with weekly demos, continuous testing, and iterative improvements based on your feedback.</p>
     </div>
-    <div className='rcard' style={{backgroundColor:'rgba(238, 238, 255, 1)'}}>
+    <div className='rcard' style={{backgroundColor:'rgba(238, 238, 255, 1)',transform: "rotate(5deg)"}}>
       <div className='icon-heading'>
       <piicons.PiCodeDuotone className='ricon' size={23} />
       <h3>Go Live</h3>
       </div>
       <p>Launch preparation, performance optimization, and deployment to production environments.</p>
     </div>
-    <div className='rcard' style={{backgroundColor:'rgba(245, 238, 255, 1)'}}>
+    <div className='rcard' style={{backgroundColor:'rgba(232, 220, 252, 1)',transform: "rotate(-5deg)"}}>
       <div className='icon-heading'>
       <piicons.PiRocketBold className='ricon' size={23} />
       <h3>Growth</h3>
       </div>
       <p>Post-launch optimization, analytics review, and strategic recommendations for scaling.</p>
     </div>
-    <div className='rcard' style={{backgroundColor:'rgba(254, 218, 204, 1)'}}>
+    <div className='rcard' style={{backgroundColor:'rgba(254, 218, 204, 1)',transform: "rotate(5deg)"}}>
       <div className='icon-heading'>
       <HiOutlineSupport  className='ricon' size={23} />
       <h3>Support</h3>

@@ -20,7 +20,7 @@ const App = () => {
     const handleScroll = () => {
       sections.forEach(sec => {
         const rect = sec.getBoundingClientRect();
-        // Add 'active' when section enters viewport, remove when leaves
+
         if (rect.top < window.innerHeight - 100 && rect.bottom > 0) {
           sec.classList.add("active");
         } else {
@@ -40,12 +40,15 @@ const App = () => {
       {/* Navbar should stay outside sections */}
       <Navbar />
 
-      <section id='Services' className="section"><Container /><Wwo /></section>
-      <section id='Whoweare' className="section"><Container2 /><Benefits /></section>
+      <section id='Services' className="section"><Container /></section>
+      <section className="section"><Wwo /></section>
+      <section id='Whoweare' className="section"><Container2 /></section>
+      <section className="section"><Benefits /></section>
       <section className="section"><Container3 /></section>
       <section className="section"><Container4 /></section>
       <section className="section"><Nst /></section>
-      <section id='Testimonials' className="section"><Testimonials /><Wom /></section>
+      <section id='Testimonials' className="section"><Testimonials /></section>
+      <section className="section"><Wom /></section>
       <section className="section"><Container5 /></section>
       <Footer />
     </>

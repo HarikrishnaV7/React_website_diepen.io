@@ -8,17 +8,17 @@ const Container4 = () => {
     <div>
         <div className='container4'>
        <div className='card8'>
-        <FaRegSquareCheck  size={30}/><br /><br /><br /><br />
+        <FaRegSquareCheck  size={30}/><br /><br /><br />
         <h4>Full-Service Delivery</h4>
         <p>From strategy and design to development and deployment - we handle your entire digital transformation journey.</p>
       </div>
        <div className='card8'>
-        <piicons.PiLightbulbBold className='ricon' size={30} /><br /><br /><br /><br />
+        <piicons.PiLightbulbBold className='ricon' size={30} /><br /><br /><br />
         <h4>Latest Tech Stack</h4>
         <p>React, Next.js, React Native, AI integration, and cloud solutions using industry robust technologies.</p>
       </div>
        <div className='card8'>
-        <FaRegHandshake size={30} /><br /><br /><br /><br />
+        <FaRegHandshake size={30} /><br /><br /><br />
         <h4>Continuous Support</h4>
         <p>Long-term partnership with maintenance, updates, and evolution of your digital products as your business grows.</p>
       </div>

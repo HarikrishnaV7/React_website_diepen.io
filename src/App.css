@@ -29,7 +29,7 @@ body {
   margin-bottom: -30px;
 }
 section{
-  scroll-margin-top: 100px;
+  scroll-margin-top: 150px;
 }
 .logo{
   font-size: 20px;
@@ -309,7 +309,7 @@ section{
 .card8{
   background-color:white;
   border-radius: 15px;
-  padding: 20px;
+  padding:20px;
   height: 220px;
   width: 180px;
   border: 1px solid #d6d0d0;
@@ -527,15 +527,19 @@ section{
   padding: 12px 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
+  cursor: pointer;
 }
 .schbtn{
   display: flex;
   align-items: center;
   font-size: medium;
   gap: 10px;
-  background-color: #5c06e7;
+  background-color: #723dee;
   color: white;
   border: none;
+}
+.schbtn:hover {
+  background-color:  #5726a7;
 }
 .emailbtn{
   display: flex;

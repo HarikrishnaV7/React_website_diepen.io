@@ -11,17 +11,17 @@ const Container3 = () => {
         <p>From web apps to mobile platforms, we handle every layer of <br /> your digital ecosystem with modern tech stacks.</p>
       </div>
        <div className='card8'>
-        <piicons.PiRocket size={30} /><br /><br /><br /><br />
+        <piicons.PiRocket size={30} /><br /><br /><br />
         <h4>Fast Time-to-Market</h4>
         <p>Launch your digital products quickly without compromising quality through our streamlined development process.</p>
       </div>
        <div className='card8'>
-        <piicons.PiArrowSquareInDuotone size={30} /><br /><br /><br /><br />
+        <piicons.PiArrowSquareInDuotone size={30} /><br /><br /><br />
         <h4>Built to Scale</h4>
         <p>Future-proof solutions that grow with your business, from startup MVP to enterprise-level platforms.</p>
       </div>
        <div className='card8'>
-        <piicons.PiPuzzlePieceDuotone size={30} /><br /><br /><br /><br />
+        <piicons.PiPuzzlePieceDuotone size={30} /><br /><br />
         <h4>Tailored to You</h4>
         <p> No cookie-cutter approaches. Every solution is crafted specifically for your business needs and goals.</p>
       </div>
