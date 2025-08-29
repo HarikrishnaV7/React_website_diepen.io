@@ -47,7 +47,7 @@ const App = () => {
       <section className="section"><Nst /></section>
       <section id='Testimonials' className="section"><Testimonials /><Wom /></section>
       <section className="section"><Container5 /></section>
-      <section className="section"><Footer /></section>
+      <Footer />
     </>
   )
 }
