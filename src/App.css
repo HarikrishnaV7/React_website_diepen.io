@@ -347,7 +347,6 @@ section{
   margin-top: -10px;
 }
 .rcard{
-  background-color: aqua;
   display: flex;
   justify-content: center;
   flex-direction: column;
