@@ -20,7 +20,7 @@ const Nst = () => {
       title: "Planning",
       text: "Strategic planning phase where we define the project scope, timeline, and technical architecture.",
       bg: "rgba(223, 245, 210, 1)",
-      rotate: "rotate(5deg)",
+      rotate: "rotate(4deg)",
     },
     {
       id: 3,
